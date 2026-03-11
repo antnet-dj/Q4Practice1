@@ -3,19 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=>device-width>, initial-scale=1.0">
-    <title>Document</title>
+    <title>Q4 Practice 1</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
     <h1>JavaScript Conditional Statements</h1>
+    <button class="btn btn-info" onclick="checkAge()"></button>
 
     <script>
         //checkAge
+        function checkAge(){
         if (15 < 18){
             alert("You are underage.");
+        }
+        else if (21 > 18){
+            alert("You are of legal age.")
         }
         else {
             alert("Your age could not be classified.");
         }
+    }
     </script>
 
 </body>
